@@ -19,7 +19,7 @@ export class UserloginComponent {
       "username":this.username,
       "password":this.password
     }
-    this.api.userlogin(data).subscribe{
+    this.api.userlogin(data).subscribe(
       (response:any)=>{
         if(response.status == "success"){
           alert ("login success")
@@ -27,8 +27,8 @@ export class UserloginComponent {
           alert("login failed")
         }
       }
-    }
+    )
+  }
       
+}
 
-}
-}

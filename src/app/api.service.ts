@@ -14,8 +14,8 @@ export class ApiService {
     return this.http.post("http://localhost:8080/userlogin",dataToSend)
   }
 
-  searchBooks =(dataToSend:any)=>
+  userreg=(dataToSend:any)=>
   {
-    return this.http.post("http://localhost:8080/search",dataToSend)
+    return this.http.post("http://localhost:8080/usereg",dataToSend)
   }
 }
