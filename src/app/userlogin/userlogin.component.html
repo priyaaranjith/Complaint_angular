@@ -3,7 +3,7 @@
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div class="row g-3 mt-4">
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xx-12 text-center">
-                  <h1 class="text-dark">Admin Login</h1>
+                  <h1 class="text-dark">User Login</h1>
                 </div>  
 
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xx-12">
@@ -17,10 +17,11 @@
                 </div>
 
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xx-12 text-center">
-                    <button (click)="readValues()" class="btn btn-success">Admin Login</button>
+                    <button class="btn btn-success">User Login</button>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xx-12 text-center">
-                    <button class="btn btn-success"routerLink="/userlogin">User Login</button>
+                    <button (click)="readValues()" class="btn btn-success mx-5"routerLink="/">Admin Login</button>
+                    <button (click)="readValues()" class="btn btn-success">User Registration</button>
                 </div>
             </div>
         </div>
