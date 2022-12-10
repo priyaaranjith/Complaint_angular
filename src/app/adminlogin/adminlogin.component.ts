@@ -15,9 +15,10 @@ export class AdminloginComponent {
   readValues =() =>
   {
     if(this.username == "admin" && this.password == "12345"){
-      alert
-    }else{
+      this.route.navigate(["/dashboard"])
       
+    }else{
+
     }
     
 }
